@@ -1,0 +1,19 @@
+.card {
+  margin-bottom: 16px;
+  padding: 10px 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.dropdown {
+  position: relative;
+}

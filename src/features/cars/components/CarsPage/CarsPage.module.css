@@ -1,0 +1,44 @@
+.sorting {
+  margin-bottom: 16px;
+}
+
+.sorting_title {
+  margin-bottom: 8px;
+}
+
+.sorting_select {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.gridToggle {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.gridToggle_checkbox {
+  margin-top: 8px;
+}
+
+.gridToggle_helpMark {
+  margin-top: 8px;
+}
+
+.carsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 16px;
+}
+
+@media (max-width: 795px) {
+  .carsGrid {
+    display: block;
+  }
+
+  .gridToggle {
+    display: none;
+  }
+}
